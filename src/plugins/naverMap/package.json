@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "vue-naver-maps@0.14.2",
+      "D:\\workspace\\놀라바\\홈페이지\\nollava-client-front"
+    ]
+  ],
+  "_from": "vue-naver-maps@0.14.2",
+  "_id": "vue-naver-maps@0.14.2",
+  "_inBundle": false,
+  "_integrity": "sha512-vjTYxCGW+PD1gYioqDLtJQbmEZta7R4StaKaEv92mfgQxq5W6lyuiEW+jHhuBRNXy43YhegqVcxH+zHO/yMggQ==",
+  "_location": "/vue-naver-maps",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-naver-maps@0.14.2",
+    "name": "vue-naver-maps",
+    "escapedName": "vue-naver-maps",
+    "rawSpec": "0.14.2",
+    "saveSpec": null,
+    "fetchSpec": "0.14.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-naver-maps/-/vue-naver-maps-0.14.2.tgz",
+  "_spec": "0.14.2",
+  "_where": "D:\\workspace\\놀라바\\홈페이지\\nollava-client-front",
+  "author": {
+    "name": "Shin-JaeHeon",
+    "email": "shinjaeheon520614@gmail.com",
+    "url": "https://shin-jaeheon.github.io/vue-naver-maps"
+  },
+  "bug": {
+    "url": "https://github.com/Shin-JaeHeon/vue-naver-maps/issues",
+    "email": "shinjaeheon520614@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Shin-JaeHeon/vue-naver-maps/issues"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "description": "NAVER Maps component for vue.js",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "7.14.2",
+    "@types/navermaps": "^3.0.5",
+    "babel-loader": "^8.2.2",
+    "babel-minify": "^0.5.1",
+    "babel-preset-minify": "^0.5.1",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.46.0",
+    "webpack-cli": "3.3.12"
+  },
+  "homepage": "https://github.com/Shin-JaeHeon/vue-naver-maps#readme",
+  "license": "MIT",
+  "main": "dist/vue-naver-maps.js",
+  "name": "vue-naver-maps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-JaeHeon/vue-naver-maps.git"
+  },
+  "scripts": {
+    "build": "webpack-cli --config webpack.config.js"
+  },
+  "version": "0.14.2"
+}

@@ -1,0 +1,1398 @@
+@import "reset", "app";
+
+// laptop
+@media all and (min-width: 768px) {
+  .mainVisual {
+    h2 {
+      font-size: 50px;
+      line-height: normal;
+      strong {
+        font-size: 70px;
+      }
+      br {
+        display: none;
+      }
+    }
+  } // mainVisual
+
+  h3 {
+    display: block;
+    margin-top: 80px;
+  }
+
+  .titleSt01 {
+    padding: 0;
+    .contentTitle {
+      span {
+        display: inline;
+      }
+      br {
+        display: block;
+      }
+      em {
+        display: inline;
+      }
+    }
+    .contentExplain {
+      br {
+        display: none;
+      }
+    }
+  } // titleSt01
+
+  #wrap {
+    #topBanner {
+      .bannerSwiper {
+        width: calc(100% - 74px);
+      }
+      .banner {
+        padding: 0;
+        height: 74px;
+        div {
+          padding: 0;
+        }
+      }
+      .bannerCloseBtn {
+        padding: 0;
+        width: 74px;
+        background-size: auto;
+      }
+    }
+    #contents {
+      padding-top: 110px;
+      &.isBanner {
+        padding-top: calc(110px + 74px);
+      }
+      > div + div {
+        padding-top: 110px;
+      }
+      #introduce {
+        .mainVisual {
+          .catchP {
+            .depth0 {
+              font-size: 44px;
+            }
+            .mainVisualLogo {
+              width: 430px;
+            }
+          }
+        }
+        .contentBox {
+          .content1 {
+            ul {
+              li {
+                width: calc(25% - 27px);
+              }
+            }
+          }
+          .content2 {
+            > ul {
+              > li {
+                width: calc(25% - 10px);
+                > p {
+                  min-height: 76px;
+                }
+              }
+            }
+          }
+          .content3 {
+            ul {
+              max-width: none;
+              li {
+                width: calc(50% - 10px);
+                p {
+                  min-height: 44px;
+                  br {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      #brand {
+        .mainVisual {
+          height: auto;
+          background: none;
+          h2 {
+            top: 20%;
+            line-height: 1;
+            padding-left: 17%;
+            text-align: left;
+          }
+          img:first-of-type {
+            display: block;
+          }
+          img + img {
+            position: absolute;
+            top: 46%;
+            left: 31%;
+            padding: 0;
+            width: 300px;
+          }
+        }
+        .contentBox {
+          .content1 {
+            ul {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              margin-top: 80px;
+              li {
+                width: calc(33.3% - 10px);
+                margin: 20px 0 0 0;
+                img {
+                  border-radius: 20px;
+                }
+                span {
+                  font-size: 30px;
+                }
+              }
+            }
+          }
+          .content2 {
+            ul {
+              display: flex;
+              flex-wrap: wrap;
+              li {
+                width: 50%;
+                margin: 24px 0 0 0 !important;
+                font-size: 30px;
+                p {
+                  margin-top: -10px;
+                }
+
+                .legoContent {
+                  li {
+                    font-size: 20px;
+                  }
+                }
+              }
+              li:nth-child(2n) {
+                font-size: 20px;
+              }
+            }
+          }
+          .content3 {
+            ul {
+              margin-top: 80px;
+              li {
+                width: calc(50% - 20px);
+                margin-top: 40px;
+              }
+              li:first-child {
+                width: 100%;
+                img:first-child {
+                  display: block;
+                }
+                img + img {
+                  display: none;
+                }
+              }
+            }
+          }
+          .content5 {
+            .titleSt01 {
+              .contentTitle {
+                span {
+                  padding-top: 27px;
+                  &:after {
+                    top: 0;
+                    left: auto;
+                    right: 0;
+                    transform: translateX(0);
+                    width: 172px;
+                    height: 27px;
+                  }
+                }
+              }
+            }
+            ul {
+              margin: 90px auto 0;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              li {
+                width: calc(50% - 20px);
+              }
+              li + li {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+      #franchise {
+        .mainVisual {
+          height: auto;
+          background: none;
+          h2 {
+            top: 18%;
+            padding-left: 16%;
+            font-size: 40px;
+            line-height: 1.2em;
+            text-align: left;
+            strong {
+              font-size: inherit;
+            }
+          }
+          > img:first-of-type {
+            display: block;
+          }
+          img + img {
+            position: absolute;
+            top: 50%;
+            left: 16%;
+            width: 260px;
+            transform: translateX(0%);
+          }
+        }
+        .contentBox {
+          .content1 {
+            padding-top: 120px;
+            text-align: center;
+            .titleSt01 {
+              margin-top: 80px;
+            }
+            .visual {
+              padding-top: 5%;
+              background: url("~@/assets/img/franchise/img_visual2.png")
+                repeat-x;
+              background-size: auto 100%;
+              img {
+                width: 872px;
+              }
+            }
+            .inner {
+              margin-top: -40px;
+              padding: 0 30px 120px;
+              ul {
+                max-width: 1640px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                li {
+                  padding: 20px 0 40px;
+                  width: 100%;
+                  border-radius: 32px;
+                  strong {
+                    font-size: 46px;
+                  }
+                  p {
+                    margin-top: 10px;
+                    font-size: 28px;
+                  }
+                  span {
+                    margin-top: 10px;
+                    font-size: 20px;
+                    em {
+                      display: inline;
+                    }
+                    br {
+                      display: block;
+                    }
+                  }
+                  &:after {
+                    top: -74px;
+                    width: 256px;
+                    height: 234px;
+                    background-size: auto 234px;
+                  }
+                  & + li {
+                    margin-top: 60px;
+                  }
+                }
+                li:nth-child(2n):after {
+                  left: auto;
+                  right: 0%;
+                }
+                li:nth-child(2):after {
+                  background-position: -256px 0;
+                }
+                li:nth-child(3):after {
+                  top: -80px;
+                  left: -10px;
+                  background-position: -512px 0;
+                }
+                li:nth-child(4):after {
+                  top: -60px;
+                  background-position: -768px 0;
+                }
+              }
+            }
+          }
+          .content2 {
+            padding-top: 120px;
+            ul {
+              max-width: 800px;
+              margin-top: 120px;
+              li {
+                margin-top: 40px;
+                > span {
+                  margin-left: 16px;
+                  font-size: 40px;
+                  line-height: 33px;
+                }
+                > div {
+                  border-radius: 32px;
+                  padding: 20px 0 28px;
+                  > em {
+                    font-size: 20px;
+                  }
+                  > strong {
+                    font-size: 46px;
+                    letter-spacing: -2px;
+                  }
+                  > p {
+                    font-size: 22px;
+                    span {
+                      display: inline;
+                    }
+                  }
+                  &:after {
+                    top: 0;
+                    left: 0;
+                    width: 278px;
+                    height: 230px;
+                    transform: translate(-16%, -8%);
+                    background-size: auto 460px;
+                  }
+                }
+              }
+              li:nth-child(2) > div:after {
+                transform: translate(-22%, -8%);
+                background-position: -278px 0;
+              }
+              li:nth-child(3) > div:after {
+                transform: translate(-25%, 16%);
+                background-position: -556px 0;
+              }
+              li:nth-child(4) > div:after {
+                background-position: 0 -230px;
+              }
+              li:nth-child(5) > div:after {
+                background-position: -278px -230px;
+              }
+              li:nth-child(6) > div:after {
+                background-position: -556px -230px;
+              }
+            }
+          }
+        }
+      }
+      #franchiseShopsInformation {
+        .fsiTable {
+          letter-spacing: -1px;
+          .header {
+            padding: 18px 0;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .body {
+            .franchiseShop {
+              padding: 22px 0;
+              .index {
+                padding-left: 30px;
+              }
+              .index,
+              .service {
+                font-size: 18px;
+              }
+              .title,
+              .address {
+                font-size: 20px;
+              }
+              .address {
+                span {
+                  display: inline;
+                }
+              }
+            }
+            .franchiseShopDetail {
+              padding: 40px 0;
+              .franchiseShopLocationContainer {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 40px;
+                .fslImg {
+                  width: 49%;
+                  margin: 0;
+                  .fslImgContainer {
+                    .swiper {
+                      .swiperButton {
+                        top: calc(50% - 25px);
+                        width: 50px;
+                        height: 50px;
+                        background-size: 26px;
+                      }
+                      .swiperButtonNext {
+                        right: 20px;
+                      }
+                      .swiperButtonPrev {
+                        left: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+              .naverMapArea {
+                article {
+                  padding: 0;
+                  height: 370px;
+                  .naverMaps {
+                    height: 100%;
+                  }
+                }
+              }
+              .fslContent {
+                font-size: 20px;
+                padding-bottom: 40px;
+              }
+            }
+          }
+          .cellContainer {
+            div {
+              padding: 0 20px;
+            }
+            .index {
+              width: 90px;
+            }
+            .title {
+              width: 180px;
+            }
+            .address {
+              width: auto;
+            }
+            .service {
+              width: 240px;
+            }
+          }
+        }
+        .fsiPagination {
+          margin-top: 70px;
+        }
+        .pagination {
+          button {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+          }
+          .pageBtns {
+            display: flex;
+            padding: 0 10px;
+            margin: 0;
+            .pageBtn {
+              font-size: 20px;
+            }
+          }
+          .movePageBtn {
+            margin-top: 2px;
+            &.moveFirstPage {
+              background-size: 16px;
+            }
+            &.movePrevPage {
+              background-size: 9px;
+            }
+            &.moveNextPage {
+              background-size: 9px;
+            }
+            &.moveLastPage {
+              background-size: 16px;
+            }
+          }
+        }
+      } // franchiseShopInformation
+      #contact {
+        .inner {
+          width: auto;
+          padding: 50px 0 70px;
+
+          .info {
+            padding: 0 40px 40px;
+            h2 {
+              font-size: 36px;
+            }
+            ul {
+              margin-top: 30px;
+              li {
+                span {
+                  font-size: 24px;
+                  strong {
+                    font-size: 48px;
+                  }
+                  br {
+                    display: none;
+                  }
+                }
+                span:first-child {
+                  min-width: 160px;
+                }
+                & + li {
+                  margin-top: 10px;
+                }
+              }
+            }
+          }
+          #vue-naver-maps {
+            width: calc(100% - 80px) !important;
+            height: 478px !important;
+          }
+        }
+      } // contact
+      #footer {
+        padding: 60px 0 50px 80px;
+      }
+    }
+    #layerPopup {
+      .inner {
+        margin-top: -10%;
+        ol {
+          padding-right: 20px;
+        }
+      }
+    }
+    #mainPopup {
+      top: 130px;
+      left: calc((100% - 720px) / 2);
+      max-width: 720px;
+      max-height: calc(100vh - 200px);
+      .popup {
+        // margin: 0 auto;
+      }
+      #franchiseOpenPopup {
+        .popupContent {
+          overflow: auto;
+          .popupContentDepth1 {
+            figure {
+              font-size: 0;
+              img {
+                width: 508px;
+              }
+            }
+            .moveCounselingBtn {
+              img {
+                top: calc((100% - 180px) / 2);
+                left: calc((100% - 72px) / 2);
+                width: 72px;
+              }
+            }
+          }
+          .popupContentDepth2 {
+            h2 {
+              display: block;
+              padding: 0;
+              text-align: center;
+              .sbsBizIcon {
+                display: inline-block;
+                border-radius: 17.6px;
+                font-size: 18px;
+                letter-spacing: -1.2px;
+                text-align: center;
+              }
+              .catchphrase {
+                display: block;
+                margin: 5px 0 0 0;
+                font-size: 24px;
+                letter-spacing: -1.4px;
+              }
+            }
+            div {
+              padding: 0;
+              .tvOnairImg {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+              }
+              .popupContentDepth2Content {
+                width: 50%;
+                justify-content: flex-start;
+                margin: 20px 0;
+                p {
+                  margin: 10px 0 0 0;
+                  font-size: 20px;
+                  text-align: center;
+                  line-height: 1.36;
+                  letter-spacing: -1.1px;
+                }
+                button {
+                  width: 240px;
+                  height: 40px;
+                  margin: 20px auto 0 auto;
+                  border: solid 2px #231916;
+                  font-size: 20px;
+                  font-weight: 900;
+                  letter-spacing: -1.3px;
+                }
+              }
+            }
+          }
+        }
+        .popupFooter {
+          height: 50px;
+          padding: 0 30px;
+          p {
+            input[type="checkbox"] {
+              margin-top: 4px;
+              width: 20px;
+              height: 20px;
+            }
+            label {
+              margin-left: 11px;
+              font-size: 20px;
+              letter-spacing: -1px;
+            }
+          }
+          button {
+            padding: 0 2px;
+            font-size: 20px;
+            letter-spacing: -1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 작은사이즈 pc
+@media all and (min-width: 1240px) {
+  #wrap {
+    header {
+      .gnb {
+        h1 {
+          position: absolute;
+          top: 50%;
+          left: 50px;
+          transform: translateY(-50%);
+          width: 132px;
+          height: 52px;
+          &:after {
+            top: 0;
+            left: 0;
+            transform: translateY(0);
+            width: 132px;
+            height: 52px;
+            background: url("~@/assets/img/common/img_logo.png") no-repeat;
+          }
+        }
+        ul {
+          //width: 70rem;
+          height: 100%;
+          display: inline-flex;
+          justify-content: space-between;
+          border: 0 none;
+          li {
+            position: static;
+            width: auto;
+            padding: 4rem 2rem;
+            font-size: 1.8rem;
+            font-weight: 400;
+            white-space: nowrap;
+            cursor: pointer;
+            display: block;
+            span {
+              display: block;
+              min-width: 4rem;
+              line-height: 3rem;
+            }
+            &:last-child {
+              display: none;
+            }
+          }
+        }
+        button {
+          display: none;
+        }
+        .franchisePlaceBtn {
+          display: inherit;
+        }
+        .faqBtn {
+          display: none;
+        }
+      }
+    } // header
+    #contents #introduce {
+      .mainVisual {
+        background: none;
+        height: auto;
+        .catchP {
+          top: 3%;
+          .mainVisualLogo {
+            padding-top: 15px;
+            width: 310px;
+          }
+        }
+        .mainVisualImg {
+          display: block;
+        }
+      }
+    }
+    #gnbMenu .inner .snsLinks {
+      position: fixed;
+      display: inline-block;
+      right: 0;
+      left: auto;
+      bottom: 50%;
+      padding: 24px;
+      border-radius: 20px 0 0 20px;
+      background-color: #ffffff;
+      opacity: 0.3;
+      li:not(:last-child) {
+        margin: 0 0 20px 0;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    #footerBanner {
+      position: fixed;
+      display: flex;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+      justify-content: center;
+      align-items: flex-start;
+      .footerBannerContent {
+        display: none;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 10%;
+        height: 139px;
+        background-color: #2a353c;
+        &.on {
+          display: flex;
+        }
+      }
+      .toggleBtn {
+        position: absolute;
+        top: -69px;
+        right: calc(50% - 100px);
+        width: 200px;
+        height: 70px;
+        background-color: #2a353c;
+        border-radius: 20px 20px 0 0;
+        text-align: center;
+        img {
+          margin-top: 30px;
+        }
+        &.on {
+          img {
+            transform: scaleY(-1);
+          }
+        }
+      }
+      .title {
+        color: #fed400;
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        margin: 4px 30px 0;
+        width: 200px;
+      }
+      .formContainer {
+        width: 100%;
+        form {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 1%;
+          input[type="text"] {
+            width: 24%;
+            height: 50px;
+            border-radius: 10px;
+            background-color: #fff;
+            font-size: 16px;
+            color: rgba(81, 101, 112, 0.5);
+            padding: 15px;
+          }
+        }
+        .confirmContainer {
+          display: flex;
+          align-items: flex-start;
+          margin: 10px 0;
+          .agree {
+            display: inline-flex;
+            align-items: flex-start;
+            font-size: 17px;
+            color: #ffffff;
+            input[type="checkbox"] {
+              width: 21px;
+              height: 21px;
+              margin-top: 4px;
+            }
+            label {
+              margin: 0 18px;
+            }
+          }
+          button {
+            border: 0 none;
+            background: transparent;
+            cursor: pointer;
+            margin-top: 2px;
+            span {
+              color: #ffffff;
+              font-size: 14px;
+              border-bottom: 1px solid #ffffff;
+            }
+          }
+        }
+      }
+      .btnConfirm {
+        width: 153px;
+        height: 50px;
+        background-color: #fed400;
+        border-radius: 10px;
+        margin-bottom: 22px;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: -1.25px;
+        color: #2a353c;
+      }
+      #layerPopup {
+        .inner {
+          margin-top: 0%;
+        }
+      }
+    }
+  }
+}
+
+// pc
+@media all and (min-width: 1680px) and (orientation: landscape) {
+  .titleSt01 {
+    padding: 0;
+    .contentTitle {
+      font-size: 50px;
+    }
+    .contentExplain {
+      margin-top: 54px;
+      font-size: 28px;
+    }
+  } // titleSt01
+  h3 {
+    display: block;
+    margin-top: 80px;
+  }
+
+  #wrap {
+    min-width: 1680px;
+    header {
+      .gnb {
+        h1 {
+          position: absolute;
+          top: 50%;
+          left: 50px;
+          transform: translateY(-50%);
+          width: 132px;
+          height: 52px;
+          &:after {
+            top: 0;
+            left: 0;
+            transform: translateY(0);
+            width: 132px;
+            height: 52px;
+            background: url("~@/assets/img/common/img_logo.png") no-repeat;
+          }
+        }
+        ul {
+          width: 700px;
+          height: 100%;
+          display: inline-flex;
+          justify-content: space-between;
+          border: 0 none;
+          li {
+            position: static;
+            width: auto;
+            padding: 40px 20px;
+            font-size: 18px;
+            font-weight: 400;
+            white-space: nowrap;
+            cursor: pointer;
+            display: block;
+            span {
+              display: block;
+              min-width: 40px;
+              line-height: 30px;
+            }
+            &:last-child {
+              display: none;
+            }
+          }
+        }
+        button {
+          display: none;
+        }
+        .franchisePlaceBtn {
+          display: inherit;
+        }
+      }
+    } // header
+    #contents {
+      > div + div {
+        padding-top: 200px;
+      }
+      #introduce {
+        .mainVisual {
+          .catchP {
+            .depth0 {
+              font-size: 50.5px;
+            }
+            .mainVisualLogo {
+              padding-top: 30px;
+              width: 430px;
+            }
+          }
+        }
+        .contentBox {
+          padding: 0 140px;
+          ul {
+            max-width: 100% !important;
+          }
+          .content1 {
+            padding-top: 120px;
+            img {
+              width: auto;
+            }
+            .titleSt01 {
+              margin-top: -80px;
+            }
+            ul {
+              li {
+                & + li {
+                  margin: 0 0 0 20px;
+                }
+                img {
+                  height: auto;
+                }
+                div img {
+                  width: auto;
+                }
+                img + img {
+                  margin-left: 2px;
+                }
+                p {
+                  margin-top: 20px;
+                  font-size: 20px;
+                  span {
+                    display: inline;
+                  }
+                  br {
+                    display: block;
+                  }
+                }
+              }
+            }
+          } // content1
+          .content2 {
+            margin-top: 230px;
+            ul {
+              margin-top: 140px;
+              padding-top: 0;
+              li {
+                width: calc(25% - 20px);
+                padding: 100px 0 50px;
+                margin: 0 !important;
+                border-radius: 32px;
+                &:after {
+                  width: 240px;
+                  height: 200px;
+                  transform: translate(-50%, -100px);
+                }
+                strong {
+                  font-size: 46px;
+                }
+                p {
+                  margin-top: 30px;
+                  font-size: 28px;
+                  span {
+                    display: inline;
+                  }
+                }
+              }
+              li:nth-child(2):after {
+                background-position: -240px 0;
+              }
+              li:nth-child(3):after {
+                background-position: -480px 0;
+              }
+              li:nth-child(4):after {
+                background-position: -720px 0;
+              }
+            }
+          } // content2
+          .content3 {
+            margin-top: 230px;
+            ul {
+              margin-top: 60px;
+              flex-wrap: wrap;
+              align-items: baseline;
+              li {
+                width: calc(50% - 18px);
+                padding: 4rem 0;
+                border-radius: 32px;
+                strong {
+                  font-size: 46px;
+                }
+                p {
+                  min-height: 78px;
+                  font-size: 28px;
+                }
+                &:after {
+                  top: 0rem;
+                  left: 0rem;
+                  width: 144px;
+                  height: 142px;
+                  background: url("~@/assets/img/introduce/icon0201.png")
+                    no-repeat;
+                  background-size: auto 142px;
+                }
+                & + li {
+                  margin-top: 30px;
+                }
+              }
+            }
+          } // content3
+        } // contentBox
+      } // introduce
+      #brand {
+        .mainVisual {
+          height: auto;
+          background: none;
+          h2 {
+            font-size: 80px;
+          }
+          img + img {
+            width: auto;
+          }
+        }
+        .contentBox {
+          .content1 {
+            padding-top: 120px;
+            .titleSt01 {
+              margin-top: 80px;
+            }
+            ul {
+              max-width: 1600px;
+              li {
+                width: calc(25% - 18px);
+              }
+            }
+          }
+          .content2 {
+            margin-top: 230px;
+            ul {
+              max-width: 1676px;
+              li {
+                font-size: 40px;
+              }
+              li:nth-child(2n) {
+                font-size: 30px;
+              }
+            }
+          }
+          .content3 {
+            margin-top: 230px;
+            ul {
+              max-width: 1640px;
+            }
+          }
+          .content4 {
+            margin-top: 230px;
+            position: relative;
+            .titleSt01 {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              padding-top: 90px;
+              background: none;
+            }
+            img {
+              display: block;
+              width: 100%;
+              margin-top: 0;
+            }
+          }
+          .content5 {
+            margin-top: 230px;
+            ul {
+              max-width: 1640px;
+            }
+          }
+        }
+      } // brand
+      #franchise {
+        .mainVisual {
+          h2 {
+            font-size: 80px;
+          }
+          img + img {
+            width: auto;
+          }
+        }
+        .contentBox {
+          .content1 {
+            padding-top: 120px;
+            text-align: center;
+            .titleSt01 {
+              margin-top: 80px;
+            }
+            .visual {
+              padding-top: 5%;
+              background: url("~@/assets/img/franchise/img_visual2.png")
+                repeat-x;
+              background-size: auto 100%;
+              img {
+                width: auto;
+              }
+            }
+            .inner {
+              ul {
+                max-width: 1640px;
+                li {
+                  width: calc(50% - 20px);
+                  & + li {
+                    margin-top: 0;
+                  }
+                }
+                li:nth-child(2) ~ li {
+                  margin-top: 50px;
+                }
+              }
+            }
+          }
+        }
+      } // franchise
+      #faq {
+        font-size: 20px;
+        ul {
+          max-width: 164rem;
+          margin: 8rem auto 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          li {
+            width: calc(50% - 20px);
+            > strong {
+              font-size: 28px;
+            }
+            > p {
+              margin-top: 0;
+              span {
+                display: block;
+              }
+              br {
+                display: block;
+              }
+            }
+          }
+          li:nth-child(1) {
+            order: 1;
+          }
+          li:nth-child(2) {
+            order: 3;
+          }
+          li:nth-child(3) {
+            order: 5;
+          }
+          li:nth-child(4) {
+            order: 7;
+          }
+          li:nth-child(5) {
+            order: 2;
+          }
+          li:nth-child(6) {
+            order: 4;
+          }
+          li:nth-child(7) {
+            order: 6;
+          }
+        }
+      } // faq
+      #counseling {
+        .formNoti {
+          margin-top: 40px;
+          font-size: 22px;
+        }
+        form {
+          max-width: 800px;
+          margin: 30px auto 0;
+          fieldset {
+            table {
+              font-size: 32px;
+              ::placeholder {
+                font-size: 28px;
+                line-height: 1.2em;
+              }
+              input,
+              textarea {
+                font-size: 32px;
+                border-radius: 6px;
+              }
+              textarea {
+                padding: 8px 32px;
+              }
+              input[type="text"] {
+                padding: 5px 0 5px 32px;
+              }
+              div {
+                margin-top: 24px;
+                label {
+                  padding-left: 44px;
+                  font-size: 22px;
+                  &:after {
+                    width: 32px;
+                    height: 32px;
+                  }
+                }
+                button {
+                  span {
+                    font-size: 22px;
+                  }
+                }
+                & + p {
+                  margin-top: 20px;
+                  font-size: 22px;
+                  line-height: 1.2em;
+                  br {
+                    display: none;
+                  }
+                  span {
+                    display: block;
+                  }
+                }
+              }
+              .btnConfirm {
+                margin-top: 40px;
+                height: 92px;
+                font-size: 36px;
+                border-radius: 8px;
+              }
+            }
+          }
+        }
+      } // counseling
+      #franchiseShopsInformation {
+        margin: 0 14%;
+        .fsiGuide {
+          margin-top: 4rem;
+          font-size: 2.2rem;
+          letter-spacing: -1.4px;
+        }
+        .fsiTable {
+          letter-spacing: -1px;
+          margin-top: 72px;
+          .header {
+            padding: 18px 0;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .body {
+            .franchiseShop {
+              padding: 20px 0;
+              .index {
+                padding-left: 30px;
+              }
+              .index,
+              .service {
+                font-size: 18px;
+              }
+              .title,
+              .address {
+                font-size: 20px;
+              }
+            }
+          }
+          .cellContainer {
+            div {
+              padding: 0 20px;
+            }
+            .index {
+              width: 90px;
+            }
+            .title {
+              width: 180px;
+            }
+            .address {
+              width: auto;
+            }
+            .service {
+              width: 240px;
+            }
+          }
+        }
+        .fsiPagination {
+          margin-top: 70px;
+        }
+      } // franchiseShopInformation
+      #contact {
+        .inner {
+          width: auto;
+          padding: 50px 0 70px;
+          div {
+            width: 1270px;
+            margin: 0 auto;
+          }
+          .info {
+            padding: 0 0 40px;
+            ul {
+              li {
+                span:first-child {
+                  min-width: 160px;
+                }
+              }
+            }
+          }
+          #vue-naver-maps {
+            width: auto !important;
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+      } // contact
+      #footer {
+        font-size: 16px;
+        img {
+          height: auto;
+        }
+        address {
+          margin-top: 40px;
+        }
+        span,
+        p {
+          margin-top: 20px;
+        }
+      }
+    } // contents
+    #footerBanner {
+      .formContainer {
+        width: 100%;
+        form {
+          input[type="text"] {
+            font-size: 25px;
+          }
+        }
+        .confirmContainer {
+          .agree {
+            font-size: 19.5px;
+          }
+          button {
+            span {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .btnConfirm {
+        font-size: 25px;
+      }
+      #layerPopup {
+        .inner {
+          margin-top: 0%;
+        }
+      }
+    }
+  }
+}
